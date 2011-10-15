@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- UI-Elemente -->
+    <string name="app_name">CaptchaTrader</string>
+    <string name="preferences">Einstellungen</string>
+    <string name="quit">Beenden</string>
+    
+    <string name="credit_number">Ihr Account besitzt %1$d Credits</string>
+    
+    <string name="wait_for_captcha">Warten Sie auf das Captcha (vorraussichtlich %1$d Sekunden)</string>
+    <string name="txt_hint_solve_captcha">Lösen Sie das Captcha</string>
+    <string name="get_captcha">Captcha holen</string>
+    <string name="submit_answer">Absenden</string>
+    
+    <string name="getting_captcha_not_successful">Konnte kein Captcha beziehen</string>
+    <string name="no_internet_connection">Es besteht keine Verbindung zum Internet</string>
+    <string name="submit_not_successful">Absenden der Lösung nicht erfolgreich</string>
+    
+    <!-- Einstellungen  -->
+    <string name="credentials">CaptchaTrader Zugangsdaten</string>
+    
+    <string name="title_ct_username">Accountname</string>
+    <string name="summary_ct_username">Ihr Accountname bei CaptchaTrader</string>
+    <string name="diag_title_ct_username">Accountname</string>
+    
+    <string name="title_ct_password">Accountpasswort</string>
+    <string name="summary_ct_password">Das Passwort zu Ihrem Account</string>
+    <string name="diag_title_ct_password">Accountpasswort</string>
+    
+    <string name="general_options">Optionen</string>
+    
+    <string name="title_should_vibrate">Vibrieren</string>
+    <string name="summary_should_vibrate">Vibrieren wenn neues Captcha vorhanden ist</string>
+
+    <string name="auto_get_captchas">Automatischer Durchlauf</string>
+    <string name="summary_auto_get_captchas">Nach dem Absenden gleich das nächste Captcha holen</string>
+</resources>

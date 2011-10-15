@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dip"
+    >
+
+	<ImageView 
+		android:id="@+id/img_captcha"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:src="@drawable/android"
+		/>
+	<EditText 
+		android:id="@+id/txt_captchacode" 
+		android:enabled="false" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:singleLine="true"
+		android:hint="@string/txt_hint_solve_captcha"
+		android:inputType="textNoSuggestions"
+		/>
+		
+<LinearLayout 
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	>
+	
+	<Button  
+		android:id="@+id/btn_get_captcha"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/get_captcha"
+	    android:enabled="false"
+	    android:onClick="buttonClick"
+	    />
+
+	<Button  
+		android:id="@+id/btn_submit"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:text="@string/submit_answer"
+	    android:enabled="false" 
+	    android:onClick="buttonClick"
+	    />
+	    
+</LinearLayout>    
+</LinearLayout>

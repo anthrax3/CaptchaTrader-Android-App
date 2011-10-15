@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- UI-elements -->
+    <string name="app_name">CaptchaTrader</string>
+    <string name="preferences">Preferences</string>
+    <string name="quit">Quit</string>
+    
+    <string name="credit_number">You have %1$d credits in your account</string>
+    
+    <string name="wait_for_captcha">Wait for the next Captcha! (likely %1$d seconds)</string>
+    <string name="txt_hint_solve_captcha">Solve the Captcha</string>
+    <string name="get_captcha">Get Captcha</string>
+    <string name="submit_answer">Submit Answer</string>
+    
+    <string name="getting_captcha_not_successful">Unable to get a Captcha</string>
+    <string name="no_internet_connection">There is no internet connection</string>
+    <string name="submit_not_successful">Submit was not successful</string>
+    
+    <!-- Preferences  -->
+    <string name="credentials">CaptchaTrader Credentials</string>
+    
+    <string name="title_ct_username">Accountname</string>
+    <string name="summary_ct_username">Your accountname at captchatrader.com</string>
+    <string name="diag_title_ct_username">Accountname</string>
+    
+    <string name="title_ct_password">Accountpassword</string>
+    <string name="summary_ct_password">Your password for your account</string>
+    <string name="diag_title_ct_password">Accountpassword</string>
+    
+    <string name="general_options">Options</string>
+    
+    <string name="title_should_vibrate">Vibrate</string>
+    <string name="summary_should_vibrate">Should vibrate if there is a new Captcha?</string>
+
+    <string name="auto_get_captchas">Loop Processing</string>
+    <string name="summary_auto_get_captchas">Get the next Captcha after submitting the answer?</string>
+</resources>
